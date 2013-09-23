@@ -1,0 +1,18 @@
+<?php
+
+function twig_markdown_menu() {
+  $items['twig-markdown'] = array(
+    'route_name' => 'twig_markdown.render',
+    'title' => 'Twig Markdown',
+  );
+  return $items;
+}
+
+function twig_markdown_theme($existing, $type, $theme, $path) {
+  return array(
+    'twig_extension_markdown' => array(
+      'variables' => array('message' => NULL),
+      'template' => 'twig_markdown.filter',
+    )
+  );
+}

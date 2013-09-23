@@ -1,0 +1,6 @@
+name: 'Twig Extension: Markdown'
+type: module
+description: 'Support Mardown Twig extensions.'
+package: Twig Extension
+version: VERSION
+core: 8.x

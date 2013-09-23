@@ -1,0 +1,7 @@
+services:
+  twig_markdown.markdown_extension:
+    class: Drupal\twig_markdown\TwigMarkdownExtension
+    tags:
+      - { name: twig.extension }
+  twig_markdown.markdown:
+    class: Drupal\twig_markdown\Markdown

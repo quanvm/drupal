@@ -1,0 +1,6 @@
+twig_markdown.render:
+  path: '/twig-markdown'
+  defaults:
+    _content: '\Drupal\twig_markdown\TwigMarkdownController::testFilterRender'
+  requirements:
+    _permission: 'access content'
