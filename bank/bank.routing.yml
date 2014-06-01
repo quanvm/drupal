@@ -1,0 +1,7 @@
+bank.event_dispatcher:
+  path: '/bank/event-dispatcher'
+  defaults:
+    _content: '\Drupal\bank\Controller\BankController::eventDispatcher'
+    _title: 'Event Dispatcher'
+  requirements:
+    _permission: 'access content'

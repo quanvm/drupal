@@ -1,0 +1,6 @@
+services:
+  bank.mony_transfer:
+    class: Drupal\bank\EventSubscriber\StockMarketSubscriber
+    arguments: ['mount']
+    tags:
+      - { name: event_subscriber }
